@@ -1,4 +1,3 @@
-import { AcUnit } from "@mui/icons-material";
 import Navbar from "../components/navbar/Navbar";
 import "./home.scss";
 
