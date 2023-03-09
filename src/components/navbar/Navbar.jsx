@@ -1,3 +1,4 @@
+import { ArrowDropDown, Notifications, Search } from "@mui/icons-material";
 import "./navbar.scss";
 
 const Navbar = () => {
@@ -15,7 +16,22 @@ const Navbar = () => {
           <span>New and Popular</span>
           <span>My List</span>
         </div>
-        <div className="right"></div>
+        <div className="right">
+          <Search className="icon" />
+          <span>KIDS</span>
+          <Notifications className="icon" />
+          <img
+            src="https://lumiere-a.akamaihd.net/v1/images/rafiki-the-lion-king-3_fa285ecf.jpeg"
+            alt="profile img"
+          />
+          <div className="profile">
+            <ArrowDropDown className="icon" />
+            <div className="options">
+              <span>Settings</span>
+              <span>LogOut</span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
